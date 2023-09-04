@@ -74,7 +74,7 @@ function preencherTabela(usuarios) {
 const botaoChamarAPI = document.getElementById('botaoChamarAPI');
 // Adiciona um ouvinte de evento para o clique no botão.
 botaoChamarAPI.addEventListener('click', () => {
-    // Quando o botão é clicado, chama a função para buscar dados e preencher a tabela.
+    // Quando o botão é clicado, chama a função para buscar dados e preencher a 
     buscarDadosEPreencherTabela();
 
 });
